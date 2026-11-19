@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Susu Circle",
+    "description": "A rotating-savings circle app for recording contributions and payout turns. It records activity but does not transfer money.",
+    "category": "Full-stack",
+    "technologies": ["TypeScript", "Express", "SQLite"],
+    "url": "https://github.com/SusanaSerwaaOseiPoku/code-quality-exercise-2"
+  },
+  {
+    "title": "Themed Notes App",
+    "description": "A browser-based notes app with light and dark themes, editable notes, pinning, and delete actions.",
+    "category": "Frontend",
+    "technologies": ["React", "JavaScript", "Vite"],
+    "url": "https://github.com/SusanaSerwaaOseiPoku/notes-app"
+  }
+]

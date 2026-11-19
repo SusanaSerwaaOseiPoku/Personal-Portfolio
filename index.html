@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of Susana Serwaa Osei Poku."
+    />
+    <title>Susana Serwaa Osei Poku | Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Go to home">SS</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#github">GitHub</a>
+        <a
+          href="https://github.com/SusanaSerwaaOseiPoku"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Profile
+        </a>
+      </nav>
+      <button
+        class="theme-toggle"
+        id="theme-toggle"
+        type="button"
+        aria-pressed="false"
+      >
+        Use dark theme
+      </button>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+        <p class="eyebrow">Personal portfolio</p>
+        <h1 id="hero-title">Hi, I'm <span>Susana Serwaa Osei Poku.</span></h1>
+        <p class="hero__copy">
+          I build practical software projects and document what I learn along
+          the way.
+        </p>
+        <a
+          class="button-link"
+          href="https://github.com/SusanaSerwaaOseiPoku"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Explore my GitHub
+        </a>
+      </section>
+
+      <section class="section-shell" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 id="projects-title">Projects</h2>
+          </div>
+        </div>
+        <div
+          class="filter-list"
+          id="project-filters"
+          role="group"
+          aria-label="Filter projects by category"
+        ></div>
+        <p class="section-status" id="projects-status" role="status" aria-live="polite">
+          Loading projects…
+        </p>
+        <div class="card-grid" id="project-grid"></div>
+      </section>
+
+      <section class="section-shell" id="github" aria-labelledby="github-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Live from GitHub</p>
+            <h2 id="github-title">Latest repositories</h2>
+          </div>
+          <a
+            class="text-link"
+            href="https://github.com/SusanaSerwaaOseiPoku?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View all repositories
+          </a>
+        </div>
+        <p class="section-status" id="repositories-status" role="status" aria-live="polite">
+          Loading repositories…
+        </p>
+        <div class="card-grid" id="repositories-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made with care by Susana Serwaa Osei Poku.</p>
+      <a
+        href="https://github.com/SusanaSerwaaOseiPoku"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub profile
+      </a>
+    </footer>
+  </body>
+</html>
